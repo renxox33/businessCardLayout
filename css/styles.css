@@ -1,0 +1,73 @@
+body{
+    background-image: url('../images/My-card.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: red;
+}
+
+.navbar{
+    background-color: transparent;
+    margin-right: 13%;
+    margin-top: 3%;
+}
+
+.nav-item{
+    padding: 0 4%;
+}
+
+.nav-link{
+    color: black;
+    padding: 0 10%
+}
+
+.container{
+    position: relative;
+    margin-top: 5%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px 2px black;
+}
+
+.headings{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    line-height: 1.1;
+    margin-bottom: 50px;
+}
+
+.designation{
+    font-weight: 600;
+}
+
+.get-started-btn{
+    padding: .375rem .75rem;
+    font-size: 1.2rem;
+    border: 1px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #e65c00, orange, #e65c00);
+    background-size: 200%;
+}
+
+.get-started-btn:hover{
+    background-position: right;
+    transition-duration: 1.5s;
+}
+
+.caption{
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 0.9;
+}
+
